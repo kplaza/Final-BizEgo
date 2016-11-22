@@ -1,0 +1,143 @@
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      background-color: white;
+      color: grey;
+  }
+.jumbotron { 
+    background-color: #f1f1f1; /* Orange */
+    color: grey;
+    padding: 80px 25px;
+
+}
+
+.services {
+	background-color: #caebf2;
+}
+
+.bg-grey {
+    background-color: #efefef;
+    padding: 60px 50px;
+}
+
+.logo {
+    font-size: 200px;
+    color: #ff3b3f;
+}
+
+.logo-small {
+    color: #ff3b3f;
+    font-size: 50px;
+}
+
+
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.container-fluid {
+	padding: 25px;
+}
+h1 {
+	font-size: 50px;
+}
+/*bookmark*/
+.bookmark {
+	width:0;
+	height:0;
+	position:relative;
+	top:-55px;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: grey !important;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ff3b3f !important;
+    background-color: #f1f1f1 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+/*button sample*/
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #FF3B3F; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #ff3b3f; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #FF3B3F; 
+  border-color: #130269; 
+} 
+ 
+.btn-sample .badge { 
+  color: #FF3B3F; 
+  background-color: #ffffff; 
+}
