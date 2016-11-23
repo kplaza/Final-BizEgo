@@ -3,11 +3,14 @@
       line-height: 1.8;
       background-color: white;
       color: grey;
+      font-family: 'Oxygen', sans-serif;
+
   }
 .jumbotron { 
     background-color: #f1f1f1; /* Orange */
     color: grey;
     padding: 80px 25px;
+   
 
 }
 
