@@ -10,17 +10,20 @@
     background-color: #f1f1f1; /* Orange */
     color: grey;
     padding: 80px 25px;
+    font-family: 'Oxygen', sans-serif;
    
 
 }
 
 .services {
 	background-color: #caebf2;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .bg-grey {
     background-color: #efefef;
     padding: 60px 50px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .logo {

@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'net/http'
+require 'json'
 
 get '/home' do 
 	erb :home

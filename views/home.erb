@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
   <script src="/js/js.js"></script>
+  <script src="/js/data.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -39,9 +40,10 @@
 <div class="jumbotron text-center">
   <h1>Biz ego</h1> 
   <p>We help your ego with news pertaining to you</p> 
-    <form class="form-inline">
-    <input type="search" class="form-control" size="50" placeholder="Your company name">
-    <button type="button" class="btn btn-sample">Check out your ego</button>
+    <form class="form-inline" id="search_form">
+    <input id="search"  value="" class="form-control" size="50" placeholder="Your company name">
+    <input type="submit" value="Search">
+    <!-- <button type="button" class="btn btn-sample">Check out your ego</button> -->
   </form>
 </div>
 
