@@ -10,7 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <script type="text/javascript" src="d3/d3.v3.js"></script>
   <script src="/js/data.js"></script>
+
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" >
@@ -22,19 +24,32 @@
         <span class="icon-bar"></span>
       
       </button>
-      <a class="navbar-left" href="/home"><img src="bizgo.png" height= 60px></a>
+      <a class="navbar-left" href="/"><img src="bizgo.png" height= 60px></a>
 </div>
-
-<h2 id="title">Title</h2>
-<h3 id="score">Score</h3>
+</div>
+</nav>
 
 <div class="jumbotron text-center">
   <h1>Biz ego</h1> 
   <p>We help your ego with news pertaining to you</p> 
-    <form class="form-inline">
-    <input type="search"  value="" class="form-control" size="50" placeholder="Your company name">
-    <button type="button" class="btn btn-sample">Check out your ego</button>
+  <form action="/info" method="POST"></form>
+    <form class="form-inline" id="search_form">
+    <input id="search"  value="" class="form-control" size="50" placeholder="Your company name">
+    <input type="submit" value="Search">
+    <!-- <button type="button" class="btn btn-sample">Check out your ego</button> -->
   </form>
+</div>
+
+<div>
+  <h1> Click Search and get your results!</h1>
+  <p> Visualize how many News outlets are talking about you on a daily basis</h2>
+  <p> We will collect the Top 10 Latest Articles involving your company </p>
+</div>
+
+
+
+<table id="results" class="table table-striped table-inverse"></table>
+
 </div>
 
   

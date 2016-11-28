@@ -2,12 +2,12 @@ require 'sinatra'
 require 'net/http'
 require 'json'
 
-get '/home' do 
+get '/' do 
 	
 
 	erb :home
 end
 
-post '/info' do 
+get '/info' do 
 	erb :info
 end
