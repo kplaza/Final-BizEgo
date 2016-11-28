@@ -25,6 +25,14 @@ success: function(response) {
 	console.log(response);} 
  });
 
+ $.ajax({     
+ 		type: "POST",
+      url:"https://access.alchemyapi.com/calls/data/GetNews?apikey=1f0e0d237af3bc98e08d50eca5dcff16a9f452b2&return=enriched.url.title,enriched.url.publicationDate,enriched.url.enrichedTitle.docSentiment&start=1479427200&end=1480114800&q.enriched.url.enrichedTitle.entities.entity=|text=" + company + ",type=company|&count=25&outputMode=json&timeSlice=1d",    
+      data: {q: ""},
+	dataType: "json", 
+success: function(response) { 
+	console.log(response);} 
+ });
 }
 
 //  $.ajax({     
