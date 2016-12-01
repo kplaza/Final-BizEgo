@@ -109,6 +109,12 @@ h1 {
     }
 }
 
+input [type=submit] {
+  background-color: #ff3b3f;
+
+}
+
+
 /*button sample*/
 .btn-sample { 
   color: #ffffff; 
