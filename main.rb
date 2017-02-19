@@ -3,11 +3,9 @@ require 'net/http'
 require 'json'
 
 get '/' do 
-	
-
-	erb :home
+erb :home
 end
 
 get '/info' do 
-	erb :info
+erb :info
 end
